@@ -10,10 +10,12 @@ const Professional = () => {
 
             </div>
             <div className="recommendations">
-
+                <iframe 
+                    src=""
+                />
             </div>
             <div className="awards">
-                
+
             </div>
         </div>
     )
