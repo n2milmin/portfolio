@@ -19,7 +19,7 @@ const NavBar = () => {
     <header className="header">
       <nav className="nav container">
         <NavLink to="/" className="nav__logo">
-          Nicole & Tyler
+          Nicole Milmine
         </NavLink>
 
         <div
@@ -34,42 +34,15 @@ const NavBar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <NavLink
-                to="/RSVP"
+                to="/"
                 className="nav__link"
                 onClick={closeMenuOnMobile}
               >
-                RSVP
+                
               </NavLink>
-            </li>
-            <li className="nav__item">
-              <NavLink
-                to="/details"
-                className="nav__link"
-                onClick={closeMenuOnMobile}
-              >
-                Details
-              </NavLink>
-            </li>
-            <li className="nav__item">
-              <NavLink
-                to="/gallery"
-                className="nav__link"
-                onClick={closeMenuOnMobile}
-              >
-                Gallery
-              </NavLink>
-            </li>
-            <li className="nav__item">
-              <NavLink
-                to="/Registry"
-                className="nav__link"
-                onClick={closeMenuOnMobile}
-              >
-                Registry
-              </NavLink>
-            </li>
+            </li> */}
           </ul>
           <div className="nav__close" id="nav-close" onClick={toggleMenu}>
             <IoClose />
