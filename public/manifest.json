@@ -1,0 +1,15 @@
+{
+    "short_name": "Wedding",
+    "name": "Nicole & Tyler's Wedding Site",
+    "icons": [
+      {
+        "src": "",
+        "type": "image/png",
+        "sizes": "773x773"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
