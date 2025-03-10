@@ -21,12 +21,14 @@ const Home = () => {
         <div className="personal">
             <div className="philosophy">
                 <h2>Personal Philosophy</h2>
-                
+                <p>
+                    contribute to innovative projects, by adding uqine expirences, such as …., and understanding, simplfy and allowing them to reach wider audiances
+                </p>
             </div>
             <div className="bio">
                 <h2>Bio</h2>
                 <p>
-
+                    I like to knit and walk at the beach
                 </p>
             </div>
             <div className="project">
