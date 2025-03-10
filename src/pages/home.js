@@ -30,10 +30,10 @@ const Home = () => {
                 </p>
             </div>
             <div className="project">
-                <h2>Personal Projects</h2>
+                <h2>Personal Project</h2>
                 <img className="site_photo" src={ website_pic } alt="Website Photo" width="800px" onClick={ handleGithub } />
                 <div className="site_description">
-                    <h3><a href="https://github.com/n2milmin/my_wedding_site" target="_blank">Wedding Website</a></h3>
+                    <h3 onClick={ handleGithub }>Wedding Website</h3>
                     <p className="description">
                         This is a personal wedding website for my partner and me. Why pay someone else to create something or use a pre-made template when I can personalize my own as a side project? This will be used for my wedding.
                     </p>
