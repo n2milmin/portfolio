@@ -1,4 +1,4 @@
-import website_pic from "../website_img.png"
+import website_pic from "../file/website_img.png"
 import resume from "../files/nicolemilmine_resume.pdf"
 import coverletter from "../files/CoverLetter.pdf"
 
