@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Personal Section */
+.personal {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #050c6b7a;
+    padding: 2rem;
+}
+
+/* Personal Philosophy and Bio */
+.philosophy, .bio {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--title-color);
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: var(--text-color);
+}
+
+/* Personal Project */
+.project {
+    width: 100%;
+}
+
+.site_photo {
+    float: left;
+    padding-right: 20px
+}
+
+.site_description {
+    background-color: #f4f4f4;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+.site_description > ul {
+    list-style: square;
+}
+
+/* Cover Letter and Resume */
+.coverletter, .resume {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.resume {
+    padding-left: 6px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coverletter, .resume {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .personal {
+        padding: 10px;
+    }
+}
