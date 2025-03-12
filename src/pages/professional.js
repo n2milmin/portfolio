@@ -40,11 +40,18 @@ const Professional = () => {
             </div>
             <div className="volunteer">
                 <h2>Volunteer Experience</h2>
-                <div className="remax">
-                    good for networking with a wide range of people 
-                </div>
                 <div className="sam">
-
+                    <h2>Community Health Caring KW</h2>
+                    <a href='https://healthcaringkw.org/' target='_blank'>www.healthcaringkw.org</a>
+                    <p>
+                        An off-handed comment by my best friend led to an inadvertent volunteering/consulting opportunity with this organization. A mention of a poorly managed Excel spreadsheet and her struggle to fix it found me explaining the simplicity and then deciding to execute the solution myself. As a non-profit organization, they receive an abundance of donations from the stores in town. Each item of a donation was counted and input into a new line (three bags of spaghetti, two bags of rigatoni, etc.), which was messy and complicated to track in the long run. I took half an hour of my morning to create a simplified table with a few calculations to make tracking donation types easy. The manager informed me that they were eternally grateful, and I told them I'd be willing to help anytime. 
+                    </p>
+                </div>
+                <div className="remax">
+                    <h2>Remax Solid Gold Client Thanksgiving Pancake Breakfast</h2>
+                    <p>
+                        My mother is a real estate agent with Remax Solid Gold in Kitchener, Ontario. The Octoberfest Parade always passes the office, so on the day of the parade, the real estate agents host a pancake breakfast for their clients. For the past three years, I have accompanied my mother to assist them from 6 am to 11 am to set up, cook pancakes, and clean up. I find it a wonderful networking opportunity, as I get to interact with happy families who are more than willing to ask about the 'random college student' helping out. My interactions have helped build a wide network of people that I never would've interacted with in another scenario. 
+                    </p>
                 </div>
             </div>
             <div className="recommendations">
@@ -52,7 +59,6 @@ const Professional = () => {
                 <iframe 
                     src="https://drive.google.com/file/d/1H_-gJKfoQ6UsrT7a7cPdlX34lH-W7vsJ/view?usp=sharing"
                 />
-                <p>There is a second one but I was unable to get it off a broken phone on time.</p>
             </div>
             <div className="awards">
                 {/* Smart Serve ??? // Dad's for diploma */}
@@ -60,3 +66,5 @@ const Professional = () => {
         </div>
     )
 }
+
+export default Professional;
