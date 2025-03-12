@@ -61,6 +61,7 @@ const Professional = () => {
                 <h1>Recommendation Letter</h1>
                 <iframe 
                     src={ referenceletter }
+                    height="400px"
                 />
             </div>
             <div className="awards">
