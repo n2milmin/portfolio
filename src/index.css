@@ -8,13 +8,13 @@
 
 :root {
   --header-height: 3.5rem;
-  --first-color: #6A4C93;
-  --title-color: #054A29;
+  --first-color: #050c6bd5;
+  --title-color: #050c6bb6;
   --text-color: #08090A;
-  --body-color: #ffffff;
-  --back-color: #8b9474;
+  --body-color: #d3d3d3;
+  --back-color: #050c6b5d;
   --body-font: "Montserrat", sans-serif;
-  --second-font: "Dancing Script", cursive;
+  --second-font: "Montserrat", cursive;
   --h2-font-size: 2rem;
   --small-font-size: 0.813rem;
   --font-semi-bold: 600;
