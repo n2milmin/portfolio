@@ -22,13 +22,13 @@ const Home = () => {
     return (
         <div className="personal">
             <div className="philosophy">
-                <h2>Personal Philosophy</h2>
+                <h1>Personal Philosophy</h1>
                 <p>
                     Continuous learning and embracing challenges as opportunities for growth drive success.
                 </p>
             </div>
             <div className="bio">
-                <h2>Bio</h2>
+                <h1>Bio</h1>
                 <p>
                     I am a dedicated professional with a diverse background in both academia and the tech industry, currently completing a Computer Programming and Analysis diploma at George Brown College, with graduation expected in April 2025. In addition to my academic studies, I have gained hands-on experience as a remote AI Trainer at Outlier, where I focused on developing and evaluating image- and text-based machine learning models. This role involved creating and testing prompts to assess the models' ability to meet their intended requirements. My practical experience in AI, combined with ongoing coursework in machine learning, has deepened my understanding of artificial intelligence and its potential to shape future technologies.
                 <br/>
@@ -36,10 +36,10 @@ const Home = () => {
                 </p>
             </div>
             <div className="project">
-                <h2>Personal Project</h2>
+                <h1>Personal Project</h1>
                 <img className="site_photo" src={ website_pic } alt="Website Photo" width="800px" onClick={ handleGithub } />
                 <div className="site_description">
-                    <h3 onClick={ handleGithub }>Wedding Website</h3>
+                    <h2 onClick={ handleGithub }>Wedding Website</h2>
                     <p>
                         This is a personal wedding website for my partner and me. Why pay someone else to create something or use a pre-made template when I can personalize my own as a side project? This will be used for my wedding.
                     </p>
@@ -56,7 +56,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="coverletter">
-                <h2>Cover Letter</h2>
+                <h1>Cover Letter</h1>
                 <iframe 
                     src={ coverletter }
                     width="700px"
@@ -64,7 +64,7 @@ const Home = () => {
                 />
             </div>
             <div className="resume">
-                <h2>Resume</h2>
+                <h1>Resume</h1>
                 <iframe 
                     src={ resume }
                     width="700px"
