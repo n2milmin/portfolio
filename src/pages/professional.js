@@ -1,5 +1,7 @@
+import './professional.css'
 import TrueFit from '../files/truefit.png'
 import uremoteplus from '../files/uremoteplus.png'
+import referenceletter from '../files/Reference Letter - Kevin Lee.pdf'
 
 const Professional = () => {
 
@@ -15,7 +17,7 @@ const Professional = () => {
                     </p>
                 </div>
                 <div className="fitting">
-                    <h2>Fitting Software</h2>
+                    <h2>Hearing Aid Fitting Software</h2>
                     <img src={ TrueFit } alt='TrueFit Fitting/Tuning Screen'/>
                     <a 
                         href='https://www.unitron.com/au/en_au/professionals/truefit.html' 
@@ -27,6 +29,7 @@ const Professional = () => {
                     </p>
                 </div>
                 <div className="mobile">
+                    <h2>Hearing Aid Mobile Software</h2>
                     <img src={ uremoteplus } alt='Unitron Remote Plus App Screenshots'/>
                     <a 
                         href='https://play.google.com/store/apps/details?id=com.sonova.unitron.rcapp&hl=en_CA' 
@@ -39,7 +42,7 @@ const Professional = () => {
                 </div>
             </div>
             <div className="volunteer">
-                <h2>Volunteer Experience</h2>
+                <h1>Volunteer Experience</h1>
                 <div className="sam">
                     <h2>Community Health Caring KW</h2>
                     <a href='https://healthcaringkw.org/' target='_blank'>www.healthcaringkw.org</a>
@@ -55,9 +58,9 @@ const Professional = () => {
                 </div>
             </div>
             <div className="recommendations">
-                <h2>Recommendation Letters</h2>
+                <h1>Recommendation Letter</h1>
                 <iframe 
-                    src="https://drive.google.com/file/d/1H_-gJKfoQ6UsrT7a7cPdlX34lH-W7vsJ/view?usp=sharing"
+                    src={ referenceletter }
                 />
             </div>
             <div className="awards">
