@@ -45,6 +45,8 @@ h2 {
 p {
   font-size: 1.1em;
   color: var(--text-color);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
