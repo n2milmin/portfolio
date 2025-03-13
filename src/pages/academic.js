@@ -8,7 +8,7 @@ const Academic = () => {
     return (
         <div className="academic">
             <div className="degrees">
-                <h1>Educatiion</h1>
+                <h1>Education</h1>
                 <div className="gbc">
                     <h2>Computer Programming and Analysis from George Brown College</h2>
                     <a 
@@ -55,7 +55,13 @@ const Academic = () => {
                 <h1>Projects</h1>
                 <div className="capstone">
                     <h2>Capstone</h2>
+                    <h3>September 2024 - April 2025</h3>
+                    <p>GitHub is currently private</p>
+                    <p>
+
+                    </p>
                     <div className="links">
+                        <h3>Relevant Documents</h3>
                         <a 
                             href="https://drive.google.com/file/d/1AK0EZggoQ9_Lzic5AZ7MedrcSdnFdEtF/view?usp=sharing" 
                             target="_blank" >
@@ -141,7 +147,7 @@ const Academic = () => {
                     <h2>Kome Mobile</h2>
                     <h3>January 2025 - April 2025</h3>
                     <p>
-                        
+                        For Mobile Development II, our Capstone group is building the iOS version of the Food Decider application. Using XCode, Swift, and SwiftUI, we are creating a working UI and a semi-working backend. Currently, the progress is minimal, but between the 5 of us, I am confident we'll accomplish what we set out to do within the deadline.
                     </p>
                     <a 
                         href='https://github.com/AnnaShiba/COMP3097_GroupProject'
