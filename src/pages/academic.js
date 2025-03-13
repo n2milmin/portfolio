@@ -56,15 +56,17 @@ const Academic = () => {
             </div>
             <div className="work">
                 <h1>Projects</h1>
+                <h2>Capstone</h2>
                 <div className="capstone">
-                    <h2>Capstone</h2>
-                    <h3>September 2024 - April 2025</h3>
-                    <p>GitHub is currently private</p>
-                    <p>
-
-                    </p>
-                    <h3>Relevant Documents</h3>
+                    <div className='description'>
+                        <h3>September 2024 - April 2025</h3>
+                        <p>GitHub is currently private</p>
+                        <p>
+                            description
+                        </p>
+                    </div>
                     <ul className="links">
+                        <h3>Relevant Documents</h3>
                         <li>
                             <a 
                                 href="https://drive.google.com/file/d/1AK0EZggoQ9_Lzic5AZ7MedrcSdnFdEtF/view?usp=sharing" 
@@ -114,30 +116,29 @@ const Academic = () => {
                                     System Implementation
                             </a>
                         </li>
-                        <ul className="statusreports">
-                            <li>
-                                <a 
-                                    href="https://drive.google.com/file/d/1_hTsvJZhLcdrtrK4xKNvqSmpH-oajrnc/view?usp=sharing" 
-                                    target="_blank">
-                                        Status Report 1
-                                </a>
-                            </li>
-                            <li>
-                                <a 
-                                    href="https://drive.google.com/file/d/1IXUn6Mckcl6AX_4UFfiuwWN3fJ2sfZPs/view?usp=sharing" 
-                                    target="_blank">
-                                        Status Report 2
-                                </a>
-                            </li>
-                            {/* <li>
-                                <a 
-                                    href=""
-                                    target="_blank">
-                                        Status Report 3
-                                </a>
-                            </li> */}
-                        </ul>
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/1_hTsvJZhLcdrtrK4xKNvqSmpH-oajrnc/view?usp=sharing" 
+                                target="_blank">
+                                    Status Report 1
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/1IXUn6Mckcl6AX_4UFfiuwWN3fJ2sfZPs/view?usp=sharing" 
+                                target="_blank">
+                                    Status Report 2
+                            </a>
+                        </li>
+                        {/* <li>
+                            <a 
+                                href=""
+                                target="_blank">
+                                    Status Report 3
+                            </a>
+                        </li> */}
                     </ul>
+                    {/* Taken from Figma's share / embeded section */}
                     <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1);'}} width="800" height="450" src="https://embed.figma.com/proto/VOcG8YiQTFR0n53Z8MqnE7/Kome---Mobile-App?node-id=85-3573&starting-point-node-id=85%3A3573&embed-host=share" allowfullscreen></iframe>
                 </div>
                 <div className="android">
