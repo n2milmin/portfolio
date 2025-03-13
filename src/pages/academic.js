@@ -56,13 +56,14 @@ const Academic = () => {
             </div>
             <div className="work">
                 <h1>Projects</h1>
-                <h2>Capstone</h2>
+                
                 <div className="capstone">
                     <div className='description'>
+                        <h2>Capstone</h2>
                         <h3>September 2024 - April 2025</h3>
                         <p>GitHub is currently private</p>
                         <p>
-                            description
+                            The Healthy Food Decider app takes a user-centric, data-driven approach to meal planning. It makes it easy for users to find recipes and meal suggestions that suit their dietary needs. Key features include personalized dietary preferences, recipe recommendations, and meal history.
                         </p>
                     </div>
                     <ul className="links">
@@ -141,43 +142,50 @@ const Academic = () => {
                     {/* Taken from Figma's share / embeded section */}
                     <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1);'}} width="800" height="450" src="https://embed.figma.com/proto/VOcG8YiQTFR0n53Z8MqnE7/Kome---Mobile-App?node-id=85-3573&starting-point-node-id=85%3A3573&embed-host=share" allowfullscreen></iframe>
                 </div>
-                <div className="android">
+                
+                <div className="mobile">
+                    <div className='android'>
                     <h2>Kome Android</h2>
-                    <h3>September 2024 - December 2024</h3>
-                    <p>
-                        For Mobile Development I, our Capstone group built an Android prototype of the Food Decider application. Using Android Studio and Java, we created a working UI and a semi-working backend. No database data was created, but you are able to edit the user's preferences and there are a few recipes. 
-                    </p>
-                    <a 
-                        href='https://github.com/Harrybandukda/COMP3074_GroupProject'
-                        target='_blank'>
-                            GitHub
-                    </a>
-                    <a 
-                        href='https://drive.google.com/file/d/15Ot48pSytWlM1EwcG2kEdo0STNfkA-1C/view?usp=sharing'
-                        target='_blank'>
-                            Project Proposal
-                    </a>
+                        <h3>September 2024 - December 2024</h3>
+                        <a 
+                            href='https://github.com/Harrybandukda/COMP3074_GroupProject'
+                            target='_blank'>
+                                GitHub
+                        </a>
+                        , 
+                        <a 
+                            className='proposal'
+                            href='https://drive.google.com/file/d/15Ot48pSytWlM1EwcG2kEdo0STNfkA-1C/view?usp=sharing'
+                            target='_blank'>
+                                Project Proposal
+                        </a>
+                        <p>
+                            For Mobile Development I, our Capstone group built an Android prototype of the Food Decider application. Using Android Studio and Java, we created a working UI and a semi-working backend. No database data was created, but you are able to edit the user's preferences and there are a few recipes. 
+                        </p>
+                    </div>
                     <iframe 
                         src={ screenshots }
-                        
+                        height="400px"
                     />
-                </div>
-                <div className="apple">
-                    <h2>Kome Mobile</h2>
-                    <h3>January 2025 - April 2025</h3>
-                    <p>
-                        For Mobile Development II, our Capstone group is building the iOS version of the Food Decider application. Using XCode, Swift, and SwiftUI, we are creating a working UI and a semi-working backend. Currently, the progress is minimal, but between the 5 of us, I am confident we'll accomplish what we set out to do within the deadline.
-                    </p>
-                    <a 
-                        href='https://github.com/AnnaShiba/COMP3097_GroupProject'
-                        target='_blank'>
-                            GitHub
-                    </a>
-                    <a 
-                        href='https://drive.google.com/file/d/1xXCS3_GxF60TgWpuiXf-PH4xHZdYu1kF/view?usp=sharing'
-                        target='_blank'>
-                            Project Proposal
-                    </a>
+                    <div className="apple">
+                        <h2>Kome Mobile</h2>
+                        <h3>January 2025 - April 2025</h3>
+                        <a 
+                            href='https://github.com/AnnaShiba/COMP3097_GroupProject'
+                            target='_blank'>
+                                GitHub
+                        </a>
+                        , 
+                        <a 
+                            className='proposal'
+                            href='https://drive.google.com/file/d/1xXCS3_GxF60TgWpuiXf-PH4xHZdYu1kF/view?usp=sharing'
+                            target='_blank'>
+                                Project Proposal
+                        </a>
+                        <p>
+                            For Mobile Development II, our Capstone group is building the iOS version of the Food Decider application. Using XCode, Swift, and SwiftUI, we are creating a working UI and a semi-working backend. Currently, the progress is minimal, but between the 5 of us, I am confident we'll accomplish what we set out to do within the deadline.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
