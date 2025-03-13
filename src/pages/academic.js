@@ -10,25 +10,25 @@ const Academic = () => {
             <div className="degrees">
                 <h1>Education</h1>
                 <div className="gbc">
-                    <h2>Computer Programming and Analysis from George Brown College</h2>
+                    <h2>Computer Programming and Analysis Advanced Diploma <br/>George Brown College</h2>
+                    <h3>January 2023 - April 2025</h3>
                     <a 
                         href="https://www.georgebrown.ca/programs/computer-programming-and-analysis-program-online-t197" 
                         target="_blank">
                             Program Page
                     </a>
-                    <h3>January 2023 - April 2025</h3>
                     <p>
                         The Computer Programming and Analysis (Online) three-year advanced diploma program offers comprehensive programming and IT analysis training. As a graduate of this program, you’ll have a solid foundation to advance your career in the dynamic and constantly evolving world of IT.
                     </p>
                 </div>
                 <div className="uw">
-                    <h2>Physics and Astronomy Honours Bachelor of Science with Co-op from the University of Waterloo</h2>
+                    <h2>Physics and Astronomy Honours Bachelor of Science with Co-op <br/>University of Waterloo</h2>
+                    <h3>September 2019 - August 2022 (voluntarily ceased)</h3>
                     <a 
                         href="https://uwaterloo.ca/future-students/programs/physics-and-astronomy" 
                         target="_blank">
                             Program Page
                     </a>
-                    <h3>September 2019 - August 2022 (voluntarily ceased)</h3>
                     <p>
                         With a Physics and Astronomy degree, you can use your passion for physics and space to pursue careers as an astronomer, aerospace scientist, or a researcher in theoretical physics, astrophysics, as well as data analysis for space and atmospheric institutes.
                     </p>
@@ -38,13 +38,16 @@ const Academic = () => {
                 <h1>Awards</h1>
                 <div className="deanslist">
                     <h2>Deans List</h2>
-                    <h3>Spring 2023, Fall 2024</h3>
+                    <h3 className='spring_title'>Spring 2023</h3>
                     <iframe 
+                        className='spring_iframe'
                         src={ dlSpring}
                         width="700px"
                         height="400px"
                     />
+                    <h3 className='fall_title'>Fall 2024</h3>
                     <iframe 
+                        className='fall_iframe'
                         src={ dlFall }
                         width="700px"
                         height="400px"
@@ -60,43 +63,57 @@ const Academic = () => {
                     <p>
 
                     </p>
-                    <div className="links">
-                        <h3>Relevant Documents</h3>
-                        <a 
-                            href="https://drive.google.com/file/d/1AK0EZggoQ9_Lzic5AZ7MedrcSdnFdEtF/view?usp=sharing" 
-                            target="_blank" >
-                                Project Summary
-                        </a>
-                        <a 
-                            href="https://drive.google.com/file/d/10idA6Ws8SkQg5rZhN3PIA4pyGOQiWS7f/view?usp=sharing" 
-                            target="_blank" >
-                                Project Vision
-                        </a>
-                        <a 
-                            href="https://drive.google.com/file/d/1COWWn2d6hRRo4Rh4oL8NeIwkRsvOKkh1/view?usp=sharing" 
-                            target="_blank" >
-                                Project/Business Requirements
-                        </a>
-                        <a 
-                            href="https://drive.google.com/file/d/1MAQQa710vhvDKGayytBJija6iktOZTsl/view?usp=sharing" 
-                            target="_blank" >
-                                Project Plan
-                        </a>
-                        <a 
-                            href="https://drive.google.com/file/d/1NUXQdB9sSG3VVyP7pjy0pjTNOKjvZxC7/view?usp=sharing" 
-                            target="_blank" >
-                                Requirements Analysis and Design
-                        </a>
-                        <a 
-                            href="" 
-                            target="_blank" >
-                                Wireframes/Mockups
-                        </a>
-                        <a 
-                            href="" 
-                            target="_blank" >
-                                System Implementation
-                        </a>
+                    <h3>Relevant Documents</h3>
+                    <ul className="links">
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/1AK0EZggoQ9_Lzic5AZ7MedrcSdnFdEtF/view?usp=sharing" 
+                                target="_blank">
+                                    Project Summary
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/10idA6Ws8SkQg5rZhN3PIA4pyGOQiWS7f/view?usp=sharing" 
+                                target="_blank">
+                                    Project Vision
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/1COWWn2d6hRRo4Rh4oL8NeIwkRsvOKkh1/view?usp=sharing" 
+                                target="_blank">
+                                    Project/Business Requirements
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/1MAQQa710vhvDKGayytBJija6iktOZTsl/view?usp=sharing" 
+                                target="_blank">
+                                    Project Plan
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://drive.google.com/file/d/1NUXQdB9sSG3VVyP7pjy0pjTNOKjvZxC7/view?usp=sharing" 
+                                target="_blank">
+                                    Requirements Analysis and Design
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="" 
+                                target="_blank">
+                                    Wireframes/Mockups
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="" 
+                                target="_blank">
+                                    System Implementation
+                            </a>
+                        </li>
                         <ul className="statusreports">
                             <li>
                                 <a 
@@ -108,7 +125,7 @@ const Academic = () => {
                             <li>
                                 <a 
                                     href="https://drive.google.com/file/d/1IXUn6Mckcl6AX_4UFfiuwWN3fJ2sfZPs/view?usp=sharing" 
-                                    target="_blank" >
+                                    target="_blank">
                                         Status Report 2
                                 </a>
                             </li>
@@ -120,7 +137,8 @@ const Academic = () => {
                                 </a>
                             </li> */}
                         </ul>
-                    </div>
+                    </ul>
+                    <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1);'}} width="800" height="450" src="https://embed.figma.com/proto/VOcG8YiQTFR0n53Z8MqnE7/Kome---Mobile-App?node-id=85-3573&starting-point-node-id=85%3A3573&embed-host=share" allowfullscreen></iframe>
                 </div>
                 <div className="android">
                     <h2>Kome Android</h2>

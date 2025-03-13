@@ -6,7 +6,6 @@ import NavBar from './components/navBar.js';
 import Footer from './components/footer.js';
 import './App.css';
 
-
 function App() {
   return (
     <Router className="App">

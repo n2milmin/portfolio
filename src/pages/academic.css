@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Academic */
+.academic { 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #050c6b7a;
+    padding: 2rem;
+}
+
+/* Degrees / Education */
+.degrees {
+    display: grid;
+    grid-template-columns: 1fr 0.15fr 1fr;
+    margin-bottom: 20px;
+}
+
+.gbc {
+    grid-row: 2;
+}
+
+.uw {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+/* Awards */
+.deanslist {
+    display: grid;
+    grid-template-columns: 1fr 0.05fr 1fr;   
+    margin-bottom: 20px; 
+}
+
+.deans h2 {
+    grid-row: 1;
+}
+
+.spring_title {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.spring_iframe {    
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.fall_title{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.fall_iframe {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Projects */
+
+/* Capstone */
