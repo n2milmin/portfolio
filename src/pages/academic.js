@@ -1,6 +1,7 @@
 import './academic.css';
 import dlSpring from '../files/Dean_letter_Spring_2023.pdf';
 import dlFall from '../files/Dean_letter_Fall_2024.pdf';
+import screenshots from '../files/Android Prototype Screenshots.pdf';
 
 const Academic = () => {
 
@@ -117,17 +118,41 @@ const Academic = () => {
                 </div>
                 <div className="android">
                     <h2>Kome Android</h2>
+                    <h3>September 2024 - December 2024</h3>
+                    <p>
+                        For Mobile Development I, our Capstone group built an Android prototype of the Food Decider application. Using Android Studio and Java, we created a working UI and a semi-working backend. No database data was created, but you are able to edit the user's preferences and there are a few recipes. 
+                    </p>
+                    <a 
+                        href='https://github.com/Harrybandukda/COMP3074_GroupProject'
+                        target='_blank'>
+                            GitHub
+                    </a>
+                    <a 
+                        href='https://drive.google.com/file/d/15Ot48pSytWlM1EwcG2kEdo0STNfkA-1C/view?usp=sharing'
+                        target='_blank'>
+                            Project Proposal
+                    </a>
                     <iframe 
-                        src=""
+                        src={ screenshots }
                         
                     />
                 </div>
                 <div className="apple">
                     <h2>Kome Mobile</h2>
-                    <iframe 
-                        src=""
+                    <h3>January 2025 - April 2025</h3>
+                    <p>
                         
-                    />
+                    </p>
+                    <a 
+                        href='https://github.com/AnnaShiba/COMP3097_GroupProject'
+                        target='_blank'>
+                            GitHub
+                    </a>
+                    <a 
+                        href='https://drive.google.com/file/d/1xXCS3_GxF60TgWpuiXf-PH4xHZdYu1kF/view?usp=sharing'
+                        target='_blank'>
+                            Project Proposal
+                    </a>
                 </div>
             </div>
         </div>
