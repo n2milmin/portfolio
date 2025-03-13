@@ -1,9 +1,14 @@
 {
-  "name": "a2_backend",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "COMP3123 Full Stack Dev Assignment 2 Backend",
+  "description": "Nicole Milmine's Portfolio",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "portfolio",
+    "nicole milmine",
+    "resume",
+    "cover letter"
+  ],
   "author": {
     "name": "Nicole Milmine",
     "id": "101462077",
