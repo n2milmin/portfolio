@@ -9,7 +9,7 @@
 :root {
   --header-height: 3.5rem;
   --first-color: #050c6bd5;
-  --title-color: #050c6bcb;
+  --title-color: #2f39becb;
   --text-color: #08090A;
   --body-color: #d3d3d3;
   --back-color: #050c6b5d;
@@ -52,4 +52,8 @@ p {
 a {
   text-decoration: none;
   font-size: 1.1em;
+}
+
+a:hover{
+  color: var(--first-color);
 }
