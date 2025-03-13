@@ -54,6 +54,66 @@ const Academic = () => {
                 <h1>Projects</h1>
                 <div className="capstone">
                     <h2>Capstone</h2>
+                    <div className="links">
+                        <a 
+                            href="https://drive.google.com/file/d/1AK0EZggoQ9_Lzic5AZ7MedrcSdnFdEtF/view?usp=sharing" 
+                            target="_blank" >
+                                Project Summary
+                        </a>
+                        <a 
+                            href="https://drive.google.com/file/d/10idA6Ws8SkQg5rZhN3PIA4pyGOQiWS7f/view?usp=sharing" 
+                            target="_blank" >
+                                Project Vision
+                        </a>
+                        <a 
+                            href="https://drive.google.com/file/d/1COWWn2d6hRRo4Rh4oL8NeIwkRsvOKkh1/view?usp=sharing" 
+                            target="_blank" >
+                                Project/Business Requirements
+                        </a>
+                        <a 
+                            href="https://drive.google.com/file/d/1MAQQa710vhvDKGayytBJija6iktOZTsl/view?usp=sharing" 
+                            target="_blank" >
+                                Project Plan
+                        </a>
+                        <a 
+                            href="https://drive.google.com/file/d/1NUXQdB9sSG3VVyP7pjy0pjTNOKjvZxC7/view?usp=sharing" 
+                            target="_blank" >
+                                Requirements Analysis and Design
+                        </a>
+                        <a 
+                            href="" 
+                            target="_blank" >
+                                Wireframes/Mockups
+                        </a>
+                        <a 
+                            href="" 
+                            target="_blank" >
+                                System Implementation
+                        </a>
+                        <ul className="statusreports">
+                            <li>
+                                <a 
+                                    href="https://drive.google.com/file/d/1_hTsvJZhLcdrtrK4xKNvqSmpH-oajrnc/view?usp=sharing" 
+                                    target="_blank">
+                                        Status Report 1
+                                </a>
+                            </li>
+                            <li>
+                                <a 
+                                    href="https://drive.google.com/file/d/1IXUn6Mckcl6AX_4UFfiuwWN3fJ2sfZPs/view?usp=sharing" 
+                                    target="_blank" >
+                                        Status Report 2
+                                </a>
+                            </li>
+                            {/* <li>
+                                <a 
+                                    href=""
+                                    target="_blank">
+                                        Status Report 3
+                                </a>
+                            </li> */}
+                        </ul>
+                    </div>
                 </div>
                 <div className="android">
                     <h2>Kome Android</h2>
