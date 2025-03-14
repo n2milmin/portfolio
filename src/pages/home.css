@@ -9,6 +9,10 @@
     padding: 2rem;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 /* Philosophy and Bio */
 .philosophy, .bio {
     margin-bottom: 20px;
