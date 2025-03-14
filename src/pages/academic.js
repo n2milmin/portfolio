@@ -187,6 +187,37 @@ const Academic = () => {
                         </p>
                     </div>
                 </div>
+
+                <div className='forgottwo'> 
+                    <div className='converter'>
+                        <h2>Currency Converter Android App</h2>
+                        <a 
+                            href='https://github.com/n2milmin/101462077_COMP30744_A2.git'
+                            target='_blank'>
+                                GitHub
+                        </a>
+                        <a  
+                            href='https://www.youtube.com/watch?v=kx-kCzv4YWQ'
+                            target='_blank'>
+                                YouTube
+                        </a>
+                        <p>
+                            Mobile Development I focused on AndroidStudio development early on and react-native near the end. For the final assignment, a Currency Converter, I utilized AndroidStudio and Java. With the application of an API, the app collects real-time currency rates and converts the given price to the correct currency. Feel free to watch the attached YouTube video to go through the code and demonstration. 
+                        </p>
+                    </div>
+
+                    <div className='ml'>
+                        <h2>Machine Learning Assignment</h2>
+                        <a
+                            href='https://youtu.be/p9_JAcJ0F_Y'
+                            target='_blank'>
+                                YouTube
+                        </a>
+                        <p>
+                            Machine Learning II involves training large language models. For our second assignment, we utilized the Keras MNIST Fashion dataset. The above YouTube link provides a walkthrough/explanation of how I completed the assignment and my thought processes throughout. It is truly amazing to get to work with LLMs in this way and I enjoy learning the training process for each type of model.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     )
