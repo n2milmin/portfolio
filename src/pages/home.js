@@ -27,11 +27,12 @@ const Home = () => {
                     Continuous learning and embracing challenges as opportunities for growth drive success.
                 </p>
             </div>
+            <h1>Bio</h1>
             <div className="bio">
-                <h1>Bio</h1>
-                <p>
+                <p className='left'>
                     I am a dedicated professional with a diverse background in both academia and the tech industry, currently completing a Computer Programming and Analysis diploma at George Brown College, with graduation expected in April 2025. In addition to my academic studies, I have gained hands-on experience as a remote AI Trainer at Outlier, where I focused on developing and evaluating image- and text-based machine learning models. This role involved creating and testing prompts to assess the models' ability to meet their intended requirements. My practical experience in AI, combined with ongoing coursework in machine learning, has deepened my understanding of artificial intelligence and its potential to shape future technologies.
-                <br/>
+                </p>
+                <p>
                     Previously, I spent over a year as a Software Quality Assurance Analyst Co-op at Unitron, a Sonova brand, where I developed expertise in regression testing, release testing, and bug investigation for both mobile and software applications. This role honed my attention to detail and my ability to identify and resolve issues in software systems. Outside of work, I enjoy knitting as a creative outlet and spending time with my two cats. I am passionate about problem-solving and continuous improvement and look forward to contributing my technical skills and collaborative mindset to meaningful projects, all while staying at the forefront of emerging technologies.
                 </p>
             </div>

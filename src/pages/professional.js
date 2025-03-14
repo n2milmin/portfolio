@@ -17,8 +17,8 @@ const Professional = () => {
                     </p>
                 </div>
                 <div className="fitting">
-                    <h2>Hearing Aid Fitting Software</h2>
                     <img src={ TrueFit } alt='TrueFit Fitting/Tuning Screen'/>
+                    <h2>Hearing Aid Fitting Software</h2>
                     <a 
                         href='https://www.unitron.com/au/en_au/professionals/truefit.html' 
                         target='_blank'>
@@ -29,20 +29,23 @@ const Professional = () => {
                     </p>
                 </div>
                 <div className="mobile">
-                    <h2>Hearing Aid Mobile Software</h2>
+                    <div>
+                        <h2>Hearing Aid Mobile Software</h2>
+                        <a 
+                            href='https://play.google.com/store/apps/details?id=com.sonova.unitron.rcapp&hl=en_CA' 
+                            target='_blank'>
+                                Unitron Remote Plus - Mobile App
+                        </a>
+                        <p>
+                            Unitron Remote Plus is not as long-standing as TrueFit but impacts users just as much. While I was not present for the leap from physical remotes to an application, I enjoyed the opportunity to ensure the app provided a seamless experience for users, enabling them to effortlessly manage and adjust their hearing aids on the go. My responsibilities spanned cross-platform and regression testing to bug investigation and verification, ensuring the application's functionality, stability, and user-friendly interface.
+                        </p>
+                    </div>
                     <img src={ uremoteplus } alt='Unitron Remote Plus App Screenshots'/>
-                    <a 
-                        href='https://play.google.com/store/apps/details?id=com.sonova.unitron.rcapp&hl=en_CA' 
-                        target='_blank'>
-                            Unitron Remote Plus - Mobile App
-                    </a>
-                    <p>
-                        Unitron Remote Plus is not as long-standing as TrueFit but impacts users just as much. While I was not present for the leap from physical remotes to an application, I enjoyed the opportunity to ensure the app provided a seamless experience for users, enabling them to effortlessly manage and adjust their hearing aids on the go. My responsibilities spanned cross-platform and regression testing to bug investigation and verification, ensuring the application's functionality, stability, and user-friendly interface.
-                    </p>
                 </div>
             </div>
+            
+            <h1>Volunteer Experience</h1>
             <div className="volunteer">
-                <h1>Volunteer Experience</h1>
                 <div className="sam">
                     <h2>Community Health Caring KW</h2>
                     <a href='https://healthcaringkw.org/' target='_blank'>www.healthcaringkw.org</a>
