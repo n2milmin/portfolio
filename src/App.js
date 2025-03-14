@@ -5,10 +5,12 @@ import Academic from './pages/academic.js';
 import NavBar from './components/navBar.js';
 import Footer from './components/footer.js';
 import './App.css';
+import ScrollToTop from './components/scrollToTop.js';
 
 function App() {
   return (
     <Router className="App">
+      <ScrollToTop/>
       <NavBar />
       <main className='main-content'>
         <Routes>
