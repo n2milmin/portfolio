@@ -1,5 +1,6 @@
 # Nicole Milmine's Portfolio
-Personal Portfolio webpage created by me and hosted by Render: https://github.com/n2milmin/portfolio.git
+Personal Portfolio webpage created by me and hosted by Render: https://nicole-6vhi.onrender.com/
+
 The video walkthrough can be found here: 
 
 ### Includes
