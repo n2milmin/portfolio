@@ -1,7 +1,7 @@
 # Nicole Milmine's Portfolio
 Personal Portfolio webpage created by me and hosted by Render: https://nicole-6vhi.onrender.com/
 
-The video walkthrough can be found here: 
+The video walkthrough can be found here: https://youtu.be/PbKR3rF6lWo
 
 ### Includes
 * Personal Information

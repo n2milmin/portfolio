@@ -168,7 +168,7 @@ const Academic = () => {
                         height="400px"
                     />
                     <div className="apple">
-                        <h2>Kome Mobile</h2>
+                        <h2>Kome iOS</h2>
                         <h3>January 2025 - April 2025</h3>
                         <a 
                             href='https://github.com/AnnaShiba/COMP3097_GroupProject'
@@ -196,6 +196,7 @@ const Academic = () => {
                             target='_blank'>
                                 GitHub
                         </a>
+                        , 
                         <a  
                             href='https://www.youtube.com/watch?v=kx-kCzv4YWQ'
                             target='_blank'>
