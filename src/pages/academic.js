@@ -183,7 +183,7 @@ const Academic = () => {
                                 Project Proposal
                         </a>
                         <p>
-                            For Mobile Development II, our Capstone group is building the iOS version of the Food Decider application. Using XCode, Swift, and SwiftUI, we are creating a working UI and a semi-working backend. Currently, the progress is minimal, but between the 5 of us, I am confident we'll accomplish what we set out to do within the deadline.
+                            For Mobile Development II, our Capstone group is building the iOS version of the Food Decider application. Using XCode, Swift, and SwiftUI, we are creating a working UI and a semi-working backend. Unfortunately, we didn't complete it, but it was a great way to learn how to make a rotund app with Swift.
                         </p>
                     </div>
                 </div>
@@ -206,15 +206,48 @@ const Academic = () => {
                         </p>
                     </div>
 
+                    <div className='databases'>
+                        <h2>Databases</h2>
+                        <h3>FullStack</h3>
+                        <a
+                            href='https://github.com/n2milmin/COMP3133_FullStack_II/tree/master/n2milmin_COMP3133_101462077_Assignment1'
+                            target='_blank'>
+                            GitHub
+                        </a>
+                        <p>
+                            For the first assignment in the FullStack II course, we were tasked with creating the backend of an application using JavaScript, Apollo, Mongoose, and Express. I enjoyed learning Apollo and how it interacts with Mongoose, but the real struggle came from merging the front and backend with the final assignment. Unfortunately, I didn't complete the assignment fully before the deadline, but I did learn how difficult proper merging can be.
+                        </p>
+                        <h3></h3>
+                    </div>
+
+                    <div className='microservices'>
+                        <h2>Microservice Web Application</h2>
+                        <a
+                            href='https://github.com/n2milmin/COMP3095-Web-App-Java'
+                            target='_blank'>
+                            GitHub
+                        </a>
+                        <p>
+                            The Web Application Development in Java course taught me how to create and work with microservices. We utilized the Spring Framework to develop a web application based on Servlets, JavaBeans, JavaServer Pages technology, Model-View-Controller Architecture and JavaServer Faces.
+                            Topics covered included Java REST services / JUnit testing, JPA, inter-process communication, API gateways, circuit breaker pattern, event-driven architecture, Spring security front-end development with Spring MVC, database migrations, and web application logging. 
+                            Programs, frameworks and libraries using in the course include; Spring, Spring Boot, Spring Cloud, Spring Actuator, Spring Hibernate, Spring Security, Java REST Services, JUnit, JPA, API gateways, JWT, MongoDB, Mongo Express, Postman, Docker, Postgres Database, PGP Admin, Bootstrap, Webflux WebClient, Eureka Server and Dashboard, IAM, Keycloak, Resilience4J, Zipkin, Apache Kafka and Kafka UI, Zookeeper, Prometheus, Grafana, OAuth2, OpenID Connect, Thymeleaf, Lombok, Liquidbase, Flyaway, Swagger, OpenAPI, Logback, ELK Stack, and Elasticsearch.
+                        </p>
+                    </div>
+
                     <div className='ml'>
                         <h2>Machine Learning Assignment</h2>
                         <a
                             href='https://youtu.be/p9_JAcJ0F_Y'
                             target='_blank'>
-                                YouTube
+                            YouTube
+                        </a>
+                        <a
+                            href='https://colab.research.google.com/drive/1ifXsm4z1OrveysiN5CAMymaR1W4Nbbph?usp=sharing'
+                            target='_blank'>
+                            Google Colab
                         </a>
                         <p>
-                            Machine Learning II involves training large language models. For our second assignment, we utilized the Keras MNIST Fashion dataset. The above YouTube link provides a walkthrough/explanation of how I completed the assignment and my thought processes throughout. It is truly amazing to get to work with LLMs in this way and I enjoy learning the training process for each type of model.
+                            The final project for the Machine Learning course required a demonstration of the skills learned over the year, including data preparation, data splitting, regularization, overparameterization, data augmentation, and convoluted neural networks. I chose to work with the Butterfly Image Classification dataset made by phucthaiv02 on Kaggle. Utilizing the Pandas, NumPy, TensorFlow, Scikit-learn, and Matplotlib libraries, I demonstrated my skills by creating sequential models, validating the responses against the same test data, and comparing the results. I was unable to find the completed project, but the first draft is available above. 
                         </p>
                     </div>
                 </div>
