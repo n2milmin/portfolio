@@ -1,6 +1,7 @@
 import './academic.css';
 import dlSpring from '../files/Dean_letter_Spring_2023.pdf';
 import dlFall from '../files/Dean_letter_Fall_2024.pdf';
+import dlWinter from '../files/Dean_letter_winter2025.pdf';
 import screenshots from '../files/Android Prototype Screenshots.pdf';
 
 const Academic = () => {
@@ -49,6 +50,13 @@ const Academic = () => {
                     <iframe 
                         className='fall_iframe'
                         src={ dlFall }
+                        width="700px"
+                        height="400px"
+                    />
+                    <h3 className='winter_title'>Winter 2025</h3>
+                    <iframe 
+                        className='winter_iframe'
+                        src={ dlWinter}
                         width="700px"
                         height="400px"
                     />
@@ -188,7 +196,7 @@ const Academic = () => {
                     </div>
                 </div>
 
-                <div className='forgottwo'> 
+                <div className='other'> 
                     <div className='converter'>
                         <h2>Currency Converter Android App</h2>
                         <a 
@@ -207,9 +215,8 @@ const Academic = () => {
                         </p>
                     </div>
 
-                    <div className='databases'>
-                        <h2>Databases</h2>
-                        <h3>FullStack</h3>
+                    <div className='fullstack'>
+                        <h2>FullStack</h2>
                         <a
                             href='https://github.com/n2milmin/COMP3133_FullStack_II/tree/master/n2milmin_COMP3133_101462077_Assignment1'
                             target='_blank'>
@@ -218,7 +225,6 @@ const Academic = () => {
                         <p>
                             For the first assignment in the FullStack II course, we were tasked with creating the backend of an application using JavaScript, Apollo, Mongoose, and Express. I enjoyed learning Apollo and how it interacts with Mongoose, but the real struggle came from merging the front and backend with the final assignment. Unfortunately, I didn't complete the assignment fully before the deadline, but I did learn how difficult proper merging can be.
                         </p>
-                        <h3></h3>
                     </div>
 
                     <div className='microservices'>
