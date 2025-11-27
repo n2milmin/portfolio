@@ -235,19 +235,14 @@ const Academic = () => {
                             GitHub
                         </a>
                         <p>
-                            The Web Application Development in Java course taught me how to create and work with microservices. We utilized the Spring Framework to develop a web application based on Servlets, JavaBeans, JavaServer Pages technology, Model-View-Controller Architecture and JavaServer Faces.
-                            Topics covered included Java REST services / JUnit testing, JPA, inter-process communication, API gateways, circuit breaker pattern, event-driven architecture, Spring security front-end development with Spring MVC, database migrations, and web application logging. 
+                            The Web Application Development in Java course taught me how to create and work with microservices. We utilized the Spring Framework to develop a web application based on Servlets, JavaBeans, JavaServer Pages technology, Model-View-Controller Architecture and JavaServer Faces. <br/>
+                            Topics covered included Java REST services / JUnit testing, JPA, inter-process communication, API gateways, circuit breaker pattern, event-driven architecture, Spring security front-end development with Spring MVC, database migrations, and web application logging. <br/>
                             Programs, frameworks and libraries using in the course include; Spring, Spring Boot, Spring Cloud, Spring Actuator, Spring Hibernate, Spring Security, Java REST Services, JUnit, JPA, API gateways, JWT, MongoDB, Mongo Express, Postman, Docker, Postgres Database, PGP Admin, Bootstrap, Webflux WebClient, Eureka Server and Dashboard, IAM, Keycloak, Resilience4J, Zipkin, Apache Kafka and Kafka UI, Zookeeper, Prometheus, Grafana, OAuth2, OpenID Connect, Thymeleaf, Lombok, Liquidbase, Flyaway, Swagger, OpenAPI, Logback, ELK Stack, and Elasticsearch.
                         </p>
                     </div>
 
                     <div className='ml'>
                         <h2>Machine Learning Assignment</h2>
-                        <a
-                            href='https://youtu.be/p9_JAcJ0F_Y'
-                            target='_blank'>
-                            YouTube
-                        </a>
                         <a
                             href='https://colab.research.google.com/drive/1ifXsm4z1OrveysiN5CAMymaR1W4Nbbph?usp=sharing'
                             target='_blank'>
