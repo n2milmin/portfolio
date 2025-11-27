@@ -1,6 +1,6 @@
 import './home.css'
 import website_pic from "../files/website_img.png"
-import resume from "../files/nicolemilmine_resume.pdf"
+import resume from "../files/Resume.pdf"
 import coverletter from "../files/CoverLetter.pdf"
 
 const Home = () => {
